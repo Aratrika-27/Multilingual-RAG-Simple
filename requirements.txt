@@ -1,0 +1,26 @@
+# Core dependencies
+transformers>=4.30.0
+torch>=2.0.0
+langchain>=0.0.267
+langchain-community>=0.0.10
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+datasets>=2.14.0
+
+# Tokenization
+sentencepiece>=0.1.99
+tiktoken>=0.4.0
+
+# Federated learning
+flwr>=1.5.0  # Flower for federated learning
+
+# Utilities
+tqdm>=4.65.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+python-dotenv>=1.0.0
+
+# Optional: for notebooks
+jupyter>=1.0.0
+matplotlib>=3.7.0
